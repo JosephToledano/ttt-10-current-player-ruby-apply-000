@@ -6,11 +6,3 @@ def turn_count(board)
     end
   return moves
 end
-
-def current_player(board)
-  if moves % 2 == 0
-    return 'X'
-  else
-    return 'O'
-  end
-end
